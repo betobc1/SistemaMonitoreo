@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Windows Desktop
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisMonitoreo", "SisMonitoreo\SisMonitoreo.csproj", "{ACA40D5F-FB21-4D19-9708-DFEEE4B3EB33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Layers", "1. Layers", "{91E42007-65C9-4236-81CF-EB4704BE1703}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 Presentacion", "1.1 Presentacion", "{2C20B883-8A7C-49C3-B4BB-6DAE2A71F930}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 Domain", "1.2 Domain", "{B9251525-B508-4E3F-94C8-655435234599}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3 Data Access", "1.3 Data Access", "{9B564C69-0480-4A83-8766-AFE6EE539F96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.4 Entities", "1.4 Entities", "{0D8BE1E5-3290-4D43-B569-185B7B4FAA5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisMonitoreo.DataAccess", "SisMonitoreo.DataAccess\SisMonitoreo.DataAccess.csproj", "{55345C2B-8C3A-42CD-A023-9A4FC62D04C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisMonitoreo.Entities", "SisMonitoreo.Entities\SisMonitoreo.Entities.csproj", "{B3288741-3EC6-4451-B656-D70E179508C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisMonitoreo.Domain", "SisMonitoreo.Domain\SisMonitoreo.Domain.csproj", "{7DE1E1A1-7E71-4231-BECA-B8EDECFD0B62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACA40D5F-FB21-4D19-9708-DFEEE4B3EB33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA40D5F-FB21-4D19-9708-DFEEE4B3EB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA40D5F-FB21-4D19-9708-DFEEE4B3EB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA40D5F-FB21-4D19-9708-DFEEE4B3EB33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55345C2B-8C3A-42CD-A023-9A4FC62D04C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55345C2B-8C3A-42CD-A023-9A4FC62D04C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55345C2B-8C3A-42CD-A023-9A4FC62D04C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55345C2B-8C3A-42CD-A023-9A4FC62D04C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3288741-3EC6-4451-B656-D70E179508C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3288741-3EC6-4451-B656-D70E179508C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3288741-3EC6-4451-B656-D70E179508C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3288741-3EC6-4451-B656-D70E179508C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE1E1A1-7E71-4231-BECA-B8EDECFD0B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE1E1A1-7E71-4231-BECA-B8EDECFD0B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE1E1A1-7E71-4231-BECA-B8EDECFD0B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE1E1A1-7E71-4231-BECA-B8EDECFD0B62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACA40D5F-FB21-4D19-9708-DFEEE4B3EB33} = {2C20B883-8A7C-49C3-B4BB-6DAE2A71F930}
+		{2C20B883-8A7C-49C3-B4BB-6DAE2A71F930} = {91E42007-65C9-4236-81CF-EB4704BE1703}
+		{B9251525-B508-4E3F-94C8-655435234599} = {91E42007-65C9-4236-81CF-EB4704BE1703}
+		{9B564C69-0480-4A83-8766-AFE6EE539F96} = {91E42007-65C9-4236-81CF-EB4704BE1703}
+		{0D8BE1E5-3290-4D43-B569-185B7B4FAA5C} = {91E42007-65C9-4236-81CF-EB4704BE1703}
+		{55345C2B-8C3A-42CD-A023-9A4FC62D04C8} = {9B564C69-0480-4A83-8766-AFE6EE539F96}
+		{B3288741-3EC6-4451-B656-D70E179508C6} = {0D8BE1E5-3290-4D43-B569-185B7B4FAA5C}
+		{7DE1E1A1-7E71-4231-BECA-B8EDECFD0B62} = {B9251525-B508-4E3F-94C8-655435234599}
+	EndGlobalSection
+EndGlobal
